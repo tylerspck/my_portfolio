@@ -1,0 +1,310 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .left-side {
+    display: flex;
+  }
+  
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  .homeimg{
+    position: absolute;
+    padding-left:100px;
+    padding-top:60px;
+    
+  }
+  .homeintro{
+    position: absolute;
+    color:white;
+  }
+  .homeintro h1{
+    display: flex;
+    padding-top: 220px;
+    text-align: center;
+    padding-left:300px;
+    font-size:40px;
+  }
+  .homeintro h2{
+    text-align: center;
+    padding-left:450px;
+    font-size:30px;
+  }
+  .homeintro h3{
+    padding-left:580px;
+    padding-top: 130px;
+    font-size:25px;
+  }
+  .profile-content-wrapper {
+    position: absolute;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    top: 170px;
+    padding-left: 200px;
+  }
+  
+  .funfacts h2{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    padding-left: 620px;
+    padding-top: 900px;
+  }
+  .nature-text{
+    position: relative;
+    font-size: 25px;
+    padding-top: 20px;
+    left: -520px;
+    text-align: center;
+  }
+  .lotr-text{
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    left: 520px;
+    bottom: -463px;
+    
+  }
+  .food-text{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    left: 890px;
+    bottom: -445px;
+  }
+  .ski-text{
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    left: 1230px;
+    bottom: -445px;
+  }
+
+  .nature{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    left: 100px;
+  }
+  .lotr{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    left: 450px;
+    bottom: -474px;
+
+  }
+  .food{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    left: 800px;
+    bottom: -474px;
+  }
+  .ski{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    left: 1150px;
+    bottom: -474px;
+  }
+  .center{
+    text-align: center;
+  }
+
+  .contact-wrapper{
+    margin-left: 250px;
+  }
+  
+  .intro h2{
+    color: lightseagreen;
+}
+.intro{
+  font-size: large;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+.imgcontact{
+  opacity: 0.4;
+  
+}
+.threecolumns{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.email{
+  position: absolute;
+  top: 400px;
+  left: 200px; 
+}
+.linkedin{
+  position: absolute;
+  top: 400px;
+  left: 1100px; 
+}
+
+.github{
+  position: absolute;
+  top: 400px;
+  left: 650px; 
+  
+} 
+
+.profile-content-wrapper blockquote{
+  color: lightseagreen;
+  font-size:larger;
+  font-weight: bold;
+  left: 250px;
+}
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+  text-align: center;
+  }
+  
+  blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+  }
+  blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+    color: #7a7a7a;
+}
+  blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  }
+   
+  blockquote cite:before {
+  content: "\2014 \2009";
+  }
+
+  .twocolumnsabout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .profimgabout{
+    position: relative;
+    right:100px;
+    top:40px;
+  }
+  .aboutwords{
+    right:150px;
+    position: relative;
+  }
+
+
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .portfolio-item-wrapper {
+    position: relative;
+  }
+  
+  .portfolio-img-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+  }
+  
+  .img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .img-text-wrapper .subtitle {
+    transition: 1s;
+    color: transparent;
+  }
+  
+  .image-blur {
+    transition: 1s;
+    filter: brightness(10%);
+  }
+  
+  .img-text-wrapper:hover .subtitle {
+    color: lightseagreen;
+    font-weight: 600;
+  }
+  
+ 
