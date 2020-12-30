@@ -59,13 +59,14 @@ body {
   }
   .homeintro{
     position: absolute;
+    padding-left: 300px;
     color:white;
   }
   .homeintro h1{
     display: flex;
     padding-top: 220px;
     text-align: center;
-    padding-left:300px;
+    padding-left:300  px;
     font-size:40px;
   }
   .homeintro h2{
@@ -74,9 +75,10 @@ body {
     font-size:30px;
   }
   .homeintro h3{
-    padding-left:580px;
-    padding-top: 130px;
-    font-size:25px;
+    padding-top: 250px;
+    padding-left:600px;
+    font-size:45px;
+    text-align: center;
   }
   .profile-content-wrapper {
     position: absolute;
